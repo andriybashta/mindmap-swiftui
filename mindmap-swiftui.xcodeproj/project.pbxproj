@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB4577E12740972E00E7F889 /* mindmap_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577E02740972E00E7F889 /* mindmap_swiftuiApp.swift */; };
+		AB4577E32740972E00E7F889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577E22740972E00E7F889 /* ContentView.swift */; };
+		AB4577E52740973200E7F889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4577E42740973200E7F889 /* Assets.xcassets */; };
+		AB4577E82740973200E7F889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4577E72740973200E7F889 /* Preview Assets.xcassets */; };
+		AB4577F22740973200E7F889 /* mindmap_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577F12740973200E7F889 /* mindmap_swiftuiTests.swift */; };
+		AB4577FC2740973200E7F889 /* mindmap_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577FB2740973200E7F889 /* mindmap_swiftuiUITests.swift */; };
+		AB4577FE2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577FD2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB4577EE2740973200E7F889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB4577D52740972E00E7F889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4577DC2740972E00E7F889;
+			remoteInfo = "mindmap-swiftui";
+		};
+		AB4577F82740973200E7F889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB4577D52740972E00E7F889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB4577DC2740972E00E7F889;
+			remoteInfo = "mindmap-swiftui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB4577DD2740972E00E7F889 /* mindmap-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mindmap-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4577E02740972E00E7F889 /* mindmap_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmap_swiftuiApp.swift; sourceTree = "<group>"; };
+		AB4577E22740972E00E7F889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB4577E42740973200E7F889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB4577E72740973200E7F889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB4577ED2740973200E7F889 /* mindmap-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mindmap-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4577F12740973200E7F889 /* mindmap_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmap_swiftuiTests.swift; sourceTree = "<group>"; };
+		AB4577F72740973200E7F889 /* mindmap-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mindmap-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4577FB2740973200E7F889 /* mindmap_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmap_swiftuiUITests.swift; sourceTree = "<group>"; };
+		AB4577FD2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmap_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB4577DA2740972E00E7F889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4577EA2740973200E7F889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4577F42740973200E7F889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB4577D42740972E00E7F889 = {
+			isa = PBXGroup;
+			children = (
+				AB4577DF2740972E00E7F889 /* mindmap-swiftui */,
+				AB4577F02740973200E7F889 /* mindmap-swiftuiTests */,
+				AB4577FA2740973200E7F889 /* mindmap-swiftuiUITests */,
+				AB4577DE2740972E00E7F889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB4577DE2740972E00E7F889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB4577DD2740972E00E7F889 /* mindmap-swiftui.app */,
+				AB4577ED2740973200E7F889 /* mindmap-swiftuiTests.xctest */,
+				AB4577F72740973200E7F889 /* mindmap-swiftuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB4577DF2740972E00E7F889 /* mindmap-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				AB4577E02740972E00E7F889 /* mindmap_swiftuiApp.swift */,
+				AB4577E22740972E00E7F889 /* ContentView.swift */,
+				AB4577E42740973200E7F889 /* Assets.xcassets */,
+				AB4577E62740973200E7F889 /* Preview Content */,
+			);
+			path = "mindmap-swiftui";
+			sourceTree = "<group>";
+		};
+		AB4577E62740973200E7F889 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB4577E72740973200E7F889 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB4577F02740973200E7F889 /* mindmap-swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB4577F12740973200E7F889 /* mindmap_swiftuiTests.swift */,
+			);
+			path = "mindmap-swiftuiTests";
+			sourceTree = "<group>";
+		};
+		AB4577FA2740973200E7F889 /* mindmap-swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB4577FB2740973200E7F889 /* mindmap_swiftuiUITests.swift */,
+				AB4577FD2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift */,
+			);
+			path = "mindmap-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB4577DC2740972E00E7F889 /* mindmap-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4578012740973200E7F889 /* Build configuration list for PBXNativeTarget "mindmap-swiftui" */;
+			buildPhases = (
+				AB4577D92740972E00E7F889 /* Sources */,
+				AB4577DA2740972E00E7F889 /* Frameworks */,
+				AB4577DB2740972E00E7F889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mindmap-swiftui";
+			productName = "mindmap-swiftui";
+			productReference = AB4577DD2740972E00E7F889 /* mindmap-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB4577EC2740973200E7F889 /* mindmap-swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4578042740973200E7F889 /* Build configuration list for PBXNativeTarget "mindmap-swiftuiTests" */;
+			buildPhases = (
+				AB4577E92740973200E7F889 /* Sources */,
+				AB4577EA2740973200E7F889 /* Frameworks */,
+				AB4577EB2740973200E7F889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB4577EF2740973200E7F889 /* PBXTargetDependency */,
+			);
+			name = "mindmap-swiftuiTests";
+			productName = "mindmap-swiftuiTests";
+			productReference = AB4577ED2740973200E7F889 /* mindmap-swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB4577F62740973200E7F889 /* mindmap-swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4578072740973200E7F889 /* Build configuration list for PBXNativeTarget "mindmap-swiftuiUITests" */;
+			buildPhases = (
+				AB4577F32740973200E7F889 /* Sources */,
+				AB4577F42740973200E7F889 /* Frameworks */,
+				AB4577F52740973200E7F889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB4577F92740973200E7F889 /* PBXTargetDependency */,
+			);
+			name = "mindmap-swiftuiUITests";
+			productName = "mindmap-swiftuiUITests";
+			productReference = AB4577F72740973200E7F889 /* mindmap-swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB4577D52740972E00E7F889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AB4577DC2740972E00E7F889 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AB4577EC2740973200E7F889 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AB4577DC2740972E00E7F889;
+					};
+					AB4577F62740973200E7F889 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AB4577DC2740972E00E7F889;
+					};
+				};
+			};
+			buildConfigurationList = AB4577D82740972E00E7F889 /* Build configuration list for PBXProject "mindmap-swiftui" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB4577D42740972E00E7F889;
+			productRefGroup = AB4577DE2740972E00E7F889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB4577DC2740972E00E7F889 /* mindmap-swiftui */,
+				AB4577EC2740973200E7F889 /* mindmap-swiftuiTests */,
+				AB4577F62740973200E7F889 /* mindmap-swiftuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB4577DB2740972E00E7F889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4577E82740973200E7F889 /* Preview Assets.xcassets in Resources */,
+				AB4577E52740973200E7F889 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4577EB2740973200E7F889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4577F52740973200E7F889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB4577D92740972E00E7F889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4577E32740972E00E7F889 /* ContentView.swift in Sources */,
+				AB4577E12740972E00E7F889 /* mindmap_swiftuiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4577E92740973200E7F889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4577F22740973200E7F889 /* mindmap_swiftuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4577F32740973200E7F889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4577FC2740973200E7F889 /* mindmap_swiftuiUITests.swift in Sources */,
+				AB4577FE2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB4577EF2740973200E7F889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4577DC2740972E00E7F889 /* mindmap-swiftui */;
+			targetProxy = AB4577EE2740973200E7F889 /* PBXContainerItemProxy */;
+		};
+		AB4577F92740973200E7F889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB4577DC2740972E00E7F889 /* mindmap-swiftui */;
+			targetProxy = AB4577F82740973200E7F889 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB4577FF2740973200E7F889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB4578002740973200E7F889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB4578022740973200E7F889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mindmap-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = BA663759J3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindmap-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB4578032740973200E7F889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mindmap-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = BA663759J3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindmap-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB4578052740973200E7F889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA663759J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindmap-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mindmap-swiftui.app/mindmap-swiftui";
+			};
+			name = Debug;
+		};
+		AB4578062740973200E7F889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA663759J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindmap-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mindmap-swiftui.app/mindmap-swiftui";
+			};
+			name = Release;
+		};
+		AB4578082740973200E7F889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA663759J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindmap-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mindmap-swiftui";
+			};
+			name = Debug;
+		};
+		AB4578092740973200E7F889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA663759J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindmap-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mindmap-swiftui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB4577D82740972E00E7F889 /* Build configuration list for PBXProject "mindmap-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4577FF2740973200E7F889 /* Debug */,
+				AB4578002740973200E7F889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4578012740973200E7F889 /* Build configuration list for PBXNativeTarget "mindmap-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4578022740973200E7F889 /* Debug */,
+				AB4578032740973200E7F889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4578042740973200E7F889 /* Build configuration list for PBXNativeTarget "mindmap-swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4578052740973200E7F889 /* Debug */,
+				AB4578062740973200E7F889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4578072740973200E7F889 /* Build configuration list for PBXNativeTarget "mindmap-swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4578082740973200E7F889 /* Debug */,
+				AB4578092740973200E7F889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB4577D52740972E00E7F889 /* Project object */;
+}
