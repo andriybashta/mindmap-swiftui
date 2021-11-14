@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		AB4577E12740972E00E7F889 /* mindmap_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577E02740972E00E7F889 /* mindmap_swiftuiApp.swift */; };
-		AB4577E32740972E00E7F889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577E22740972E00E7F889 /* ContentView.swift */; };
 		AB4577E52740973200E7F889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4577E42740973200E7F889 /* Assets.xcassets */; };
 		AB4577E82740973200E7F889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4577E72740973200E7F889 /* Preview Assets.xcassets */; };
 		AB4577F22740973200E7F889 /* mindmap_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577F12740973200E7F889 /* mindmap_swiftuiTests.swift */; };
 		AB4577FC2740973200E7F889 /* mindmap_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577FB2740973200E7F889 /* mindmap_swiftuiUITests.swift */; };
 		AB4577FE2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4577FD2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift */; };
+		AB45781A27412FBE00E7F889 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45780C27412FBE00E7F889 /* Mesh.swift */; };
+		AB45781B27412FBE00E7F889 /* SelectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45780D27412FBE00E7F889 /* SelectionHandler.swift */; };
+		AB45781C27412FBE00E7F889 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45780E27412FBE00E7F889 /* Edge.swift */; };
+		AB45781D27412FBE00E7F889 /* Mesh+Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45780F27412FBE00E7F889 /* Mesh+Demo.swift */; };
+		AB45781E27412FBE00E7F889 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781027412FBE00E7F889 /* Node.swift */; };
+		AB45781F27412FBE00E7F889 /* Mesh+MathHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781127412FBE00E7F889 /* Mesh+MathHelp.swift */; };
+		AB45782027412FBE00E7F889 /* EdgeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781327412FBE00E7F889 /* EdgeMapView.swift */; };
+		AB45782127412FBE00E7F889 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781427412FBE00E7F889 /* MapView.swift */; };
+		AB45782227412FBE00E7F889 /* EdgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781527412FBE00E7F889 /* EdgeView.swift */; };
+		AB45782327412FBE00E7F889 /* NodeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781627412FBE00E7F889 /* NodeMapView.swift */; };
+		AB45782427412FBE00E7F889 /* SurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781727412FBE00E7F889 /* SurfaceView.swift */; };
+		AB45782527412FBE00E7F889 /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781827412FBE00E7F889 /* NodeView.swift */; };
+		AB45782627412FBE00E7F889 /* BoringListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45781927412FBE00E7F889 /* BoringListView.swift */; };
+		AB4578292741303200E7F889 /* CGPoint+Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4578282741303200E7F889 /* CGPoint+Help.swift */; };
+		AB4DCB5B2741A078000AB777 /* FilesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4DCB5A2741A078000AB777 /* FilesListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		AB4577DD2740972E00E7F889 /* mindmap-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mindmap-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4577E02740972E00E7F889 /* mindmap_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmap_swiftuiApp.swift; sourceTree = "<group>"; };
-		AB4577E22740972E00E7F889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB4577E42740973200E7F889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB4577E72740973200E7F889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB4577ED2740973200E7F889 /* mindmap-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mindmap-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,22 @@
 		AB4577F72740973200E7F889 /* mindmap-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mindmap-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4577FB2740973200E7F889 /* mindmap_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmap_swiftuiUITests.swift; sourceTree = "<group>"; };
 		AB4577FD2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindmap_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB45780A27412F6D00E7F889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AB45780C27412FBE00E7F889 /* Mesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
+		AB45780D27412FBE00E7F889 /* SelectionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionHandler.swift; sourceTree = "<group>"; };
+		AB45780E27412FBE00E7F889 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		AB45780F27412FBE00E7F889 /* Mesh+Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mesh+Demo.swift"; sourceTree = "<group>"; };
+		AB45781027412FBE00E7F889 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AB45781127412FBE00E7F889 /* Mesh+MathHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mesh+MathHelp.swift"; sourceTree = "<group>"; };
+		AB45781327412FBE00E7F889 /* EdgeMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeMapView.swift; sourceTree = "<group>"; };
+		AB45781427412FBE00E7F889 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AB45781527412FBE00E7F889 /* EdgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeView.swift; sourceTree = "<group>"; };
+		AB45781627412FBE00E7F889 /* NodeMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeMapView.swift; sourceTree = "<group>"; };
+		AB45781727412FBE00E7F889 /* SurfaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfaceView.swift; sourceTree = "<group>"; };
+		AB45781827412FBE00E7F889 /* NodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+		AB45781927412FBE00E7F889 /* BoringListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoringListView.swift; sourceTree = "<group>"; };
+		AB4578282741303200E7F889 /* CGPoint+Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Help.swift"; sourceTree = "<group>"; };
+		AB4DCB5A2741A078000AB777 /* FilesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +123,13 @@
 		AB4577DF2740972E00E7F889 /* mindmap-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				AB45780A27412F6D00E7F889 /* Info.plist */,
 				AB4577E02740972E00E7F889 /* mindmap_swiftuiApp.swift */,
-				AB4577E22740972E00E7F889 /* ContentView.swift */,
+				AB4DCB5A2741A078000AB777 /* FilesListView.swift */,
 				AB4577E42740973200E7F889 /* Assets.xcassets */,
+				AB4578272741303200E7F889 /* Help */,
+				AB45780B27412FBE00E7F889 /* Model */,
+				AB45781227412FBE00E7F889 /* View Stack */,
 				AB4577E62740973200E7F889 /* Preview Content */,
 			);
 			path = "mindmap-swiftui";
@@ -125,6 +158,41 @@
 				AB4577FD2740973200E7F889 /* mindmap_swiftuiUITestsLaunchTests.swift */,
 			);
 			path = "mindmap-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+		AB45780B27412FBE00E7F889 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB45780C27412FBE00E7F889 /* Mesh.swift */,
+				AB45780D27412FBE00E7F889 /* SelectionHandler.swift */,
+				AB45780E27412FBE00E7F889 /* Edge.swift */,
+				AB45780F27412FBE00E7F889 /* Mesh+Demo.swift */,
+				AB45781027412FBE00E7F889 /* Node.swift */,
+				AB45781127412FBE00E7F889 /* Mesh+MathHelp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB45781227412FBE00E7F889 /* View Stack */ = {
+			isa = PBXGroup;
+			children = (
+				AB45781327412FBE00E7F889 /* EdgeMapView.swift */,
+				AB45781427412FBE00E7F889 /* MapView.swift */,
+				AB45781527412FBE00E7F889 /* EdgeView.swift */,
+				AB45781627412FBE00E7F889 /* NodeMapView.swift */,
+				AB45781727412FBE00E7F889 /* SurfaceView.swift */,
+				AB45781827412FBE00E7F889 /* NodeView.swift */,
+				AB45781927412FBE00E7F889 /* BoringListView.swift */,
+			);
+			path = "View Stack";
+			sourceTree = "<group>";
+		};
+		AB4578272741303200E7F889 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				AB4578282741303200E7F889 /* CGPoint+Help.swift */,
+			);
+			path = Help;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +325,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4577E32740972E00E7F889 /* ContentView.swift in Sources */,
+				AB45781A27412FBE00E7F889 /* Mesh.swift in Sources */,
+				AB45782227412FBE00E7F889 /* EdgeView.swift in Sources */,
+				AB4578292741303200E7F889 /* CGPoint+Help.swift in Sources */,
+				AB45782427412FBE00E7F889 /* SurfaceView.swift in Sources */,
+				AB45782027412FBE00E7F889 /* EdgeMapView.swift in Sources */,
+				AB45781F27412FBE00E7F889 /* Mesh+MathHelp.swift in Sources */,
+				AB45781B27412FBE00E7F889 /* SelectionHandler.swift in Sources */,
+				AB45781D27412FBE00E7F889 /* Mesh+Demo.swift in Sources */,
+				AB4DCB5B2741A078000AB777 /* FilesListView.swift in Sources */,
+				AB45781C27412FBE00E7F889 /* Edge.swift in Sources */,
+				AB45782127412FBE00E7F889 /* MapView.swift in Sources */,
+				AB45782627412FBE00E7F889 /* BoringListView.swift in Sources */,
 				AB4577E12740972E00E7F889 /* mindmap_swiftuiApp.swift in Sources */,
+				AB45781E27412FBE00E7F889 /* Node.swift in Sources */,
+				AB45782527412FBE00E7F889 /* NodeView.swift in Sources */,
+				AB45782327412FBE00E7F889 /* NodeMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +504,8 @@
 				DEVELOPMENT_TEAM = BA663759J3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "mindmap-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Mindmap;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -436,7 +519,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -451,7 +534,8 @@
 				DEVELOPMENT_TEAM = BA663759J3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "mindmap-swiftui/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Mindmap;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -465,7 +549,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
